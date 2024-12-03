@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import Flickity from 'react-flickity-component';
+import Flickity from 'flickity';
 import 'flickity/css/flickity.css'; // Importa el CSS de Flickity
 
 const flickityOptions = {
@@ -12,35 +12,37 @@ const flickityOptions = {
     prevNextButtons: false,
     draggable: false,
     wrapAround: true,
-}
+};
 
 function Carousel() {
-    return (
-        <>
-            <Flickity
-                className={'carousel'} // default ''
-                elementType={'div'} // default 'div'
-                options={flickityOptions} // takes flickity options {}
-                disableImagesLoaded={true} // default false
-            // reloadOnUpdate // default false
-            // static // default false
-            >
-                <div className="gallery-cell">
-                    <img src="/img2.jpeg" alt="" />
-                </div>
-                <div className="gallery-cell">
-                    <img src="/img3.jpeg" alt="" />
-                </div>
-                <div className="gallery-cell">
-                    <img src="/img4.jpeg" alt="" />
-                </div>
-                <div className="gallery-cell">
-                    <img src="/img1.jpeg" alt="" />
-                </div>
+    const carouselRef = useRef(null); // Referencia al contenedor del carrusel
 
-            </Flickity>
-        </>
-    )
+    useEffect(() => {
+        // Inicializar Flickity
+        const flkty = new Flickity(carouselRef.current, flickityOptions);
+
+        // Limpieza al desmontar el componente
+        return () => {
+            flkty.destroy();
+        };
+    }, []);
+
+    return (
+        <div ref={carouselRef} className="carousel"> {/* Referencia al contenedor */}
+            <div className="gallery-cell">
+                <img src="/img2.jpeg" alt="Imagen 2" />
+            </div>
+            <div className="gallery-cell">
+                <img src="/img3.jpeg" alt="Imagen 3" />
+            </div>
+            <div className="gallery-cell">
+                <img src="/img4.jpeg" alt="Imagen 4" />
+            </div>
+            <div className="gallery-cell">
+                <img src="/img1.jpeg" alt="Imagen 1" />
+            </div>
+        </div>
+    );
 }
 
 export default Carousel;
