@@ -1,0 +1,338 @@
+.header {
+    position: fixed;
+    top: 0;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+
+    background: var(--white-color);
+    width: 100vw;
+    height: 10vh;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #a6a6a666;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.header.hidden {
+    transform: translateY(-100%);
+}
+
+.header.visible {
+    transform: translateY(0);
+}
+
+.hamburger-button:hover{
+    cursor: pointer;
+}
+
+.info-contact-header {
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+}
+
+.contact-header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47px;
+    height: 47px;
+    border-radius: 100%;
+    border: 1px solid #e0e0e0;
+}
+
+.header-colLeft svg{
+    width: 2rem;
+}
+.btn-and-img svg{
+    width: 2rem;
+}
+
+
+.contact-header img {
+    height: 15px;
+    width: auto;
+}
+
+
+.link-img-container {
+    width: 7rem;
+    height: 100%;
+}
+
+.header-colLeft ul{
+    display: none;
+}
+.header-colRight button{
+    display: none;
+    cursor: pointer;
+}
+
+.header.active {
+    background-color: var(--grey-color);
+    transition: all 1s;
+    position: fixed;
+}
+
+header.active #btn .btn-content {
+    border-top: 2px solid white;
+    /* Cambia el color a blanco cuando el header es activo */
+}
+
+.header.active svg {
+    stroke: var(--white-color);
+}
+
+
+.img-logo {
+    width: 100%;
+    height: 100%;
+    /* padding-left: 1rem; */
+}
+
+/* estilos menu hamburguesa */
+.btn-container {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*2*/
+#mobile-nav {
+    position: fixed;
+    top: 0vh;
+    left: 0;
+    width: 100vw;
+    max-height: 0;
+    /* Inicialmente colapsado */
+    padding-bottom: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 1rem;
+    align-content: center;
+    background-color: var(--white-color);
+    color: var(--grey-color);
+    z-index: 2;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+#mobile-nav.active {
+    transition: all 0.5s ease-in-out;
+    max-height: 100vh;
+    height: 100vh;
+    opacity: 1;
+}
+
+#mobile-nav.active body {
+    overflow-y: hidden;
+}
+
+
+#mobile-nav a {
+    color: var(--grey-color);
+}
+
+#mobile-nav a svg {
+    width: 1.5rem;
+}
+
+.userLogin {
+    width: 1.3rem;
+}
+
+#logo-container {
+    position: relative;
+}
+
+
+.cervezas-lista {
+    font-size: 12px;
+}
+
+.abrir-caja {
+    display: none;
+}
+
+.abrir-caja.active {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.container-option {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5rem;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.svg-flechita-nav {
+    transform: rotate(-90deg);
+    float: right;
+    height: 0.75rem;
+    width: 0.75rem;
+    min-height: 0.75rem;
+    min-width: 0.75rem;
+}
+
+.svg-flechita-nav-sub {
+    transform: rotate(-90deg);
+    float: right;
+    height: 0.75rem;
+    width: 0.75rem;
+    min-height: 0.75rem;
+    min-width: 0.75rem;
+    color: var(--grey-color);
+    margin-left: 1rem;
+}
+
+.svg-flechita-nav-sub.active {
+    transform: rotate(0deg);
+    float: right;
+    height: 0.75rem;
+    width: 0.75rem;
+    min-height: 0.75rem;
+    min-width: 0.75rem;
+    transition: all 0.3s;
+    margin-left: 1rem;
+}
+
+.container-mobile-nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+.list-hotels-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.linea{
+    border: 3px solid #cecece;
+}
+
+.list-hotels-nav a {
+    font-family: "EB Garamond", sans-serif;
+    font-style: italic;
+    font-size: 2.5rem;
+    color: var(--grey-color);
+}
+
+.list-idk-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    color: var(--grey-color);
+}
+
+.list-socials-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    width: 90%;
+    margin: 3rem auto 0;
+    padding-top: 2rem;
+    border-top: 1px solid #cecece;
+}
+
+.list-socials-nav img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.list-socials-nav li {
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+    border-radius: 5rem;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.listas-container{
+    margin: auto;
+}
+
+.btn-and-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.btn-and-img img {
+    width: 7rem;
+    position: absolute;
+    left: calc(50% + 6px);
+    top: 0;
+    transform: translateX(-50%);
+}
+
+/*termina*/
+
+.no-scroll {
+    overflow: hidden;
+}
+
+/* fin estilos menu hamburguesa */
+
+footer {
+    background-color: #f4f5f3;
+    margin-top: 3rem;
+}
+
+.footer-image {
+    width: 7rem;
+    display: flex;
+    margin: auto;
+}
+
+.footer-copyright-and-socials {
+    margin: 2rem 0 5rem;
+}
+
+.copyright-container {
+    margin-top: 5px;
+    font-size: 10px;
+    text-align: center;
+    color: var(--grey-color);
+}
+
+.list-unstyled {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    gap: 15px;
+}

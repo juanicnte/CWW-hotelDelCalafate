@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "name": "REMERA RUSTICA LAVADA BEIGE",
+    "description": "Una cerveza IPA con un fuerte sabor a lúpulo y un amargor distintivo.",
+    "images": [
+      "https://cdn.media.amplience.net/i/gapprod/SU246632_Men_MOB",
+      "https://www.devre.la/media/catalog/product/d/e/devre-buzo_70d000046-014_001.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=975&width=650&canvas=650:975",
+      "https://www.devre.la/media/catalog/product/d/e/devre-buzo_70d000046-014_002.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=975&width=650&canvas=650:975"
+    ],
+    "category": "remeras",
+    "price": "$10000",
+    "cuotas": "9 cuotas sin interes de $1.000"
+  },
+  {
+    "id": 2,
+    "name": "Nombre de Ropa",
+    "description": "Una cerveza lager ligera y refrescante, ideal para días calurosos.",
+    "images": [
+      "https://cdn.media.amplience.net/i/gapprod/SU246632_Men_MOB",
+      "https://example.com/imagen2.jpg",
+      "https://example.com/imagen3.jpg"
+    ],
+    "category": "remeras",
+    "price": "$10000",
+    "cuotas": "9 cuotas sin interes de $1.000"
+  },
+  {
+    "id": 3,
+    "name": "Nombre de Ropa",
+    "description": "Una cerveza IPA con un fuerte sabor a lúpulo y un amargor distintivo.",
+    "images": [
+      "https://cdn.media.amplience.net/i/gapprod/SU246632_Men_MOB",
+      "https://example.com/imagen2.jpg",
+      "https://example.com/imagen3.jpg"
+    ],
+    "category": "remeras",
+    "price": "$10000",
+    "cuotas": "9 cuotas sin interes de $1.000"
+  },
+  {
+    "id": 4,
+    "name": "Nombre de Ropa",
+    "description": "Una cerveza lager ligera y refrescante, ideal para días calurosos.",
+    "images": [
+      "https://cdn.media.amplience.net/i/gapprod/SU246632_Men_MOB",
+      "https://example.com/imagen2.jpg",
+      "https://example.com/imagen3.jpg"
+    ],
+    "category": "remeras",
+    "price": "$10000",
+    "cuotas": "9 cuotas sin interes de $1.000"
+  },
+  {
+    "id": 5,
+    "name": "Nombre de Ropa",
+    "description": "Una cerveza IPA con un fuerte sabor a lúpulo y un amargor distintivo.",
+    "images": [
+      "https://cdn.media.amplience.net/i/gapprod/SU246632_Men_MOB",
+      "https://example.com/imagen2.jpg",
+      "https://example.com/imagen3.jpg"
+    ],
+    "category": "pantalones",
+    "price": "$10000",
+    "cuotas": "9 cuotas sin interes de $1.000"
+  },
+  {
+    "id": 6,
+    "name": "Nombre de Ropa",
+    "description": "Una cerveza lager ligera y refrescante, ideal para días calurosos.",
+    "images": [
+      "https://cdn.media.amplience.net/i/gapprod/SU246632_Men_MOB",
+      "https://example.com/imagen2.jpg",
+      "https://example.com/imagen3.jpg"
+    ],
+    "category": "pantalones",
+    "price": "$10000",
+    "cuotas": "9 cuotas sin interes de $1.000"
+  },
+  {
+    "id": 7,
+    "name": "Nombre de Ropa",
+    "description": "Una cerveza lager ligera y refrescante, ideal para días calurosos.",
+    "images": [
+      "https://cdn.media.amplience.net/i/gapprod/SU246632_Men_MOB",
+      "https://example.com/imagen2.jpg",
+      "https://example.com/imagen3.jpg"
+    ],
+    "category": "remeras",
+    "price": "$10000",
+    "cuotas": "9 cuotas sin interes de $1.000"
+  },
+  {
+    "id": 8,
+    "name": "Nombre de Ropa",
+    "description": "Una cerveza lager ligera y refrescante, ideal para días calurosos.",
+    "images": [
+      "https://cdn.media.amplience.net/i/gapprod/SU246632_Men_MOB",
+      "https://example.com/imagen2.jpg",
+      "https://example.com/imagen3.jpg"
+    ],
+    "category": "remeras",
+    "price": "$10000",
+    "cuotas": "9 cuotas sin interes de $1.000"
+  },
+  {
+    "id": 9,
+    "name": "Nombre de Ropa",
+    "description": "Una cerveza lager ligera y refrescante, ideal para días calurosos.",
+    "images": [
+      "https://cdn.media.amplience.net/i/gapprod/SU246632_Men_MOB",
+      "https://example.com/imagen2.jpg",
+      "https://example.com/imagen3.jpg"
+    ],
+    "category": "remeras",
+    "price": "$10000",
+    "cuotas": "9 cuotas sin interes de $1.000"
+  },
+  {
+    "id": 10,
+    "name": "Nombre de Ropa",
+    "description": "Una cerveza lager ligera y refrescante, ideal para días calurosos.",
+    "images": [
+      "https://cdn.media.amplience.net/i/gapprod/SU246632_Men_MOB",
+      "https://example.com/imagen2.jpg",
+      "https://example.com/imagen3.jpg"
+    ],
+    "category": "remeras",
+    "price": "$10000",
+    "cuotas": "9 cuotas sin interes de $1.000"
+  }
+]

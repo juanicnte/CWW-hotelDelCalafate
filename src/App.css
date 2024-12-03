@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--grey-color);
+  /* Sin subrayado */
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+  /* Subrayado al pasar el mouse */
+}
+
+ul,
+ol {
+  list-style: none;
+  /* Elimina los puntos de las listas */
+}
+
+body {
+  /* background-color: #eeeeee; */
+  /* background-image: url("/fondo.jpg"); */
+  font-family: 'Inter', sans-serif !important;
+  /* font-family: 'Mukta', sans-serif !important; */
+  background-color: #f4f5f3 !important;
+  overflow-x: hidden !important;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+:root {
+  --encabezados: #B2DDFB;
+  /*azul glaciar*/
+  --fondo-color: #EDE0C8;
+  /*Beige arena*/
+  --details: #9BBF9E;
+  /*Verde Patagonico*/
+  --buttons: #9C4F4A;
+  /*Rojo calafate*/
+  --texto: #393939;
+  /*Gris Pizarra*/
+  --white-color: #f4f5f3;
+  /*Blanco Nieve*/
+  /* --strong-black: #000000; */
+  /* --font-size: 16px; */
+
+  --main-color: #F67280;
+  --secondary-color: #111111;
+  --terciary-color: #F9A2AB;
+  --strong-pink: #F34255;
+  --grey-color: #393939;
+  --strong-black: #000000;
+  --font-size: 16px;
+}
+
+
+/* CARRUSEL CSS */
+
+.carousel {
+  height: calc(100vh - 204px);
+}
+
+.flickity-viewport {
+  height: 100% !important;
+}
+
+.gallery-cell {
+  height: 100%;
+  width: 100%;
+}
+
+.gallery-cell img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.flickity-page-dots {
+  position: absolute !important;
+  bottom: 1rem !important;
+}
+
+
+
+.leaflet-container {
+  height: 28rem;
+  width: 95%;
+  filter: grayscale(1);
+  margin: 4rem auto;
+  position: relative;
+}
