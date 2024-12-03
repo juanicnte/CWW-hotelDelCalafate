@@ -23,6 +23,15 @@
     transform: translateY(0);
 }
 
+.algo.hidden {
+    transform: translateY(-100%);
+}
+
+.algo.visible {
+    transform: translateY(0);
+    height: 4rem;
+}
+
 .hamburger-button:hover{
     cursor: pointer;
 }
@@ -132,6 +141,7 @@ header.active #btn .btn-content {
     max-height: 100vh;
     height: 100vh;
     opacity: 1;
+    overflow: auto;
 }
 
 #mobile-nav.active body {
@@ -259,7 +269,7 @@ header.active #btn .btn-content {
     gap: 1rem;
     width: 90%;
     margin: 3rem auto 0;
-    padding-top: 2rem;
+    padding: 2rem 0;
     border-top: 1px solid #cecece;
 }
 
@@ -281,7 +291,7 @@ header.active #btn .btn-content {
 
 
 .listas-container{
-    margin: auto;
+    margin: 4rem auto 0;
 }
 
 .btn-and-img {
@@ -318,8 +328,12 @@ footer {
     margin: auto;
 }
 
+.footer-image img{
+    width: 100%;
+}
+
 .footer-copyright-and-socials {
-    margin: 2rem 0 5rem;
+    margin: 2rem 0 8rem;
 }
 
 .copyright-container {

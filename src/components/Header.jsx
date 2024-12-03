@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+import { BookingWidget } from './Booking-Widget';
 import "../css/Header-Footer.css"
 
 
@@ -8,9 +9,10 @@ const Header = () => {
     const navigate = useNavigate();
 
     const headerRef = useRef(null);
+    // const bookingRef = useRef(null);
     const [lastScrollY, setLastScrollY] = useState(0);
     const [showHeader, setShowHeader] = useState(true);
-
+    // const [showBooking, setShowBooking] = useState(true);
     useEffect(() => {
         const handleScroll = () => {
             const currentScrollY = window.scrollY;
@@ -18,9 +20,11 @@ const Header = () => {
             if (currentScrollY > lastScrollY && currentScrollY > 50) {
                 // Si el usuario baja y ha pasado un poco del inicio, esconder el header
                 setShowHeader(false);
+                // setShowBooking(false)
             } else {
                 // Si el usuario sube, mostrar el header
                 setShowHeader(true);
+                // setShowBooking(true)
             }
 
             setLastScrollY(currentScrollY); // Actualizar la posición del scroll
@@ -66,10 +70,8 @@ const Header = () => {
 
     return (
         <>
-            <header
-                ref={headerRef}
-                className={`header ${showHeader ? "visible" : "hidden"}`}
-            >
+       
+            <header className={`header ${showHeader ? "visible" : "hidden"}`}>
                 <div className='header-colLeft'>
                     <svg onClick={handleMobileNavClick} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 hamburger-button">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
@@ -81,7 +83,7 @@ const Header = () => {
                         <a>Rooftop</a>
                     </ul>
                 </div>
-                <a className="link-img-container" href="/"><img src="https://www.altahousehotel.com/assets/themes/www.altahousehotel.com/uploads/img/header/1679898573_logo-negro.svg" className="img-logo" alt="" /></a>
+                <a className="link-img-container" href="/"><img src="/tulogo.png" className="img-logo" alt="" /></a>
                 <div className='header-colRight'>
                     <a className='contact-header'>
                         <img src="https://www.altahousehotel.com/assets/themes/www.altahousehotel.com/img/icons/whatsapp.svg" alt="" />
@@ -104,7 +106,7 @@ const Header = () => {
                             </svg>
                             <a href="/">
                                 <img
-                                    src="https://www.altahousehotel.com/assets/themes/www.altahousehotel.com/uploads/img/header/1679898573_logo-negro.svg"
+                                    src="/tulogo.png"
                                     alt=""
                                 />
                             </a>
@@ -137,8 +139,11 @@ const Header = () => {
                 </nav>
                 {/* <!-- menu hamburguesa termina -->*/}
 
-
             </header>
+            {/* <div ref={bookingRef}
+                className={`algo ${showBooking ? "visible" : "hidden"}`}>
+                <BookingWidget/>
+            </div> */}
         </>
     );
 };

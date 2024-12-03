@@ -7,8 +7,8 @@ const Map = () => {
     // Coordenadas de tu negocio
     const position = [-27.369699604304405, -55.8963064886633]; // Cambia por la latitud y longitud de tu negocio
     const myIcon = L.icon({
-        iconUrl: "https://www.altahousehotel.com/assets/themes/www.altahousehotel.com/img/logos/logo-iso-negro.svg",
-        iconSize: [50, 50],
+        iconUrl: "/tulogo.png",
+        iconSize: [72, 72],
         iconAnchor: [25, 50],
         popupAnchor: null,
         shadowUrl: null,

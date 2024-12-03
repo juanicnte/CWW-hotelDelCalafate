@@ -5,7 +5,7 @@ function Footer() {
         <>
             <footer>
                 <a href="/" className='footer-image'>
-                    <img src="https://www.altahousehotel.com/assets/themes/www.altahousehotel.com/uploads/img/header/1679898573_logo-negro.svg" alt="" />
+                    <img src="/tulogo.png" alt="" />
                 </a>
                 <ul className='list-socials-nav'>
                     <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img src="https://www.altahousehotel.com/assets/themes/www.altahousehotel.com/img/icons/facebook.svg" alt="Facebook" /></a></li>
