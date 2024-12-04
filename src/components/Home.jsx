@@ -12,7 +12,6 @@ function Home() {
     return(
         <>
         <Header></Header>
-        
         <NewArrivalsCarousel></NewArrivalsCarousel>
         <Ventajas/>
         <DetailsUs/>

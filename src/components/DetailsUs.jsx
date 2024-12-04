@@ -7,12 +7,15 @@ export default function DetailsUs() {
     return (
         <>
             <section className='mucho-texto'>
-                <small>BEGUR</small>
+                <small>HOTEL CALAFATE</small>
                 <h1>Un lugar donde el tiempo se detiene</h1>
-                <p>Escápate de la rutina y visita un paraíso mediterráneo en el litoral catalán, un oasis de paz donde desconectar y enriquecer tu cuerpo y alma en todos los sentidos. Begur, ubicado en una de las zonas más exclusivas de la Costa Brava donde las aguas cristalinas del Mediterráneo y la belleza natural del Baix Empordà se unen, conserva con orgullo su pasado medieval y sus tradiciones pesqueras.
+                <p>Escápate de la rutina y vive una experiencia única en El Calafate, Argentina.
+                    Nuestro hotel boutique te invita a descubrir un refugio exclusivo en la puerta de entrada al majestuoso glaciar Perito Moreno.
+                    Rodeado de paisajes de ensueño, aquí encontrarás un espacio donde la tranquilidad y el confort se combinan para enriquecer tus sentidos.
+                    Sumérgete en la belleza patagónica, disfruta de la calidez de nuestra hospitalidad y déjate envolver por el encanto de un destino que conecta naturaleza, historia y lujo.
                     <br /><br />
-                    ¡Ven a descubrir nuestro refugio privilegiado!</p>
-                <img src="https://www.altahousehotel.com/assets/themes/www.altahousehotel.com/img/twocolsimgtxt/1687161498_costa-2.tmedium.webp" className="img-fluid lazy loading" height="878" width="632" alt="" title=""></img>
+                    ¡Tu refugio boutique en El Calafate te espera!</p>
+                <img src="https://r-xx.bstatic.com/xdata/images/landmark/1680x840/242134.webp?k=1c791b963eec1ba8c8ca3967a1887ccc01eb217c818cbdbe86d9e9e0a4448a87&o=" className="img-fluid lazy loading" alt="" title=""></img>
 
                 <button>
                     <FaAngleRight />
@@ -22,31 +25,31 @@ export default function DetailsUs() {
 
             <section className='collage-ig'>
                 <a>
-                    <img src="https://instagram.emexsdigital.com/img/instagram/altahousehotel/x8JrRjnDFxspN1fMYRzPNjgTT-xx_h5w.webp" alt="" />
-                    <img src="https://instagram.emexsdigital.com/img/instagram/altahousehotel/IsZ35vTrhqxfvMqzRHBA-mUpudRTu5ll.jpg" alt="" />
-                    <img src="https://instagram.emexsdigital.com/img/instagram/altahousehotel/XS97dWxLd6ZiYVEVCnqEHVFzhOtTl8Jt.webp" alt="" />
-                    <img src="https://instagram.emexsdigital.com/img/instagram/altahousehotel/hnZT5oHT_MZQgW8WrwC2E1NG9CPW1ow6.webp" alt="" />
+                    <img src="https://www.glaciaresdelapatagonia.com/wp-content/uploads/20-1.jpg" alt="" />
+                    <img src="https://www.glaciaresdelapatagonia.com/wp-content/uploads/1-1.jpg" alt="" />
+                    <img src="https://www.glaciaresdelapatagonia.com/wp-content/uploads/3-1.jpg" alt="" />
+                    <img src="https://cdn0.casamientos.com.ar/article/1347/3_2/960/jpg/7431-shutterstock-1485995075.webp" alt="" />
                 </a>
 
                 <h3>
-                    Instagram Feed - #altahousebegur
+                    Instagram Feed - #hoteldelcalafate
                 </h3>
             </section>
 
             <section className='ubicación'>
                 <article className='ubicacion-texto'>
-                    <small>ALTA HOUSE</small>
+                    <small>HOTEL DEL CALAFATE</small>
                     <h3>Ubicación</h3>
-                    <p>Situado en pleno corazón de Begur y a pocos minutos en coche de la playa más cercana.</p>
-                    <a href="https://maps.app.goo.gl/wQ5UMXA2KFcwWH8d7">
-                        C. Francesc Forgas, 13,
+                    <p>Ubicado en pleno corazón de El Calafate, en un entorno que combina elegancia, calidez y el encanto único de la Patagonia Argentina.</p>
+                    <a href="https://maps.app.goo.gl/sKK5VqnPZMs8tCwTA">
+                        Napoleón Irusta 2208,
                         <br />
-                        17255 Begur, Girona
+                        Z9405 El Calafate, Santa Cruz
                     </a>
                     <p>
                         T. +34 972 62 42 06
                         <br />
-                        E. info@altahousehotel.com
+                        E. centenowebworks@gmail.com
                     </p>
                 </article>
                 <Map />

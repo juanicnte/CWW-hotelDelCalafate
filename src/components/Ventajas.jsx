@@ -20,28 +20,28 @@ export default function Ventajas() {
                         </svg> */}
                         <div className='caja-ventaja-title'>
                             Wifi gratis
-                            <p className='ventajas-description' style={{ textAlign: "left" }}>Nosotros os ofrecemos conexión gratuita a Internet. Vosotros desconectad cuando queráis.</p>
+                            <p className='ventajas-description' style={{ textAlign: "left" }}>Nosotros te ofrecemos conexión gratuita a Internet. Tú desconecta cuando lo desees.</p>
                         </div>
                     </li>
                     <li>
                         <GrTag />
                         <div className='caja-ventaja-title'>
                             Mejores precios y ofertas
-                            <p className='ventajas-description' style={{ textAlign: "left" }}>Os garantizamos que reservando a través de nuestra web conseguiréis el mejor precio.</p>
+                            <p className='ventajas-description' style={{ textAlign: "left" }}>Te garantizamos que al reservar a través de nuestra página web obtendrás el mejor precio.</p>
                         </div>
                     </li>
                     <li>
                         <CiCreditCard1 />
                         <div className='caja-ventaja-title'>
                             Reserva ahora y paga al llegar
-                            <p className='ventajas-description' style={{ textAlign: "left" }}>No pospongáis vuestra reserva, posponed sólo el pago de la estancia.</p>
+                            <p className='ventajas-description' style={{ textAlign: "left" }}>No postergues tu reserva, solo posterga el pago de tu estancia.</p>
                         </div>
                     </li>
                     <li>
                         <TfiTime />
                         <div className='caja-ventaja-title'>
                             Cancelación gratuita
-                            <p className='ventajas-description' style={{ textAlign: "left" }}>Hasta 24h antes de llegada (excepto no reembolsable). Que un cambio de planes de última hora no os suponga un problema.</p>
+                            <p className='ventajas-description' style={{ textAlign: "left" }}>Hasta 24 horas antes de tu llegada (excepto tarifas no reembolsables). Un cambio de planes de última hora no será un problema.</p>
                         </div>
                     </li>
                 </ul>

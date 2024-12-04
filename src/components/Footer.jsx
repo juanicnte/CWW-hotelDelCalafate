@@ -21,7 +21,7 @@ function Footer() {
                         <li className="item"><a href="https://www.altahousehotel.com/politica-de-cookies">Política de cookies</a></li>
                     </ul>
                     <div className='copyright-container'>
-                        © Begur Alta House 2024 | by 
+                        © Hotel del Calafate | by 
                         <a> CWW</a>
                     </div>
                 </section>
